@@ -127,9 +127,10 @@ body {
 
 .left__text {
     grid-area: text;
-    color: #747377;
+    color: #6f6e71;
     font-size: 0.7rem;
     line-height: 1.3rem;
+    font-weight: 500;
 }
 
 .left__text-line {
@@ -198,7 +199,56 @@ body {
 }
 
 .right {
-    background-color: rgba(48, 160, 235, 0.603);
     min-width: 60%;
+    position: relative;
 }
 
+.right__avatar {
+    max-width: 80%;
+    transform: translateY(-5%);
+}
+
+.right__text {
+    position: absolute;
+    top: 15vh;
+    right: 5vw;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+.right__text--one::before {
+    content: '"';
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+
+.right__text--two::after {
+    content: '"';
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+
+.right__text-2 {
+    transform: rotate(-90deg);
+    position: absolute;
+    top:65%;
+    right: -5vw;
+    display: flex;
+    align-items: center;
+}
+
+.right__text-2-short-line,
+.right__text-2-long-line {
+    height: 1px;
+    background: #a6a5aa;
+}
+
+.right__text-2-short-line {
+    width: 40px;
+    margin-left: 1rem;
+}
+
+.right__text-2-long-line {
+    width: 150px;
+    margin-left: 0.8rem;
+}
