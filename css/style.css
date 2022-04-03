@@ -210,31 +210,32 @@ body {
 
 .right__text {
     position: absolute;
-    top: 15vh;
-    right: 5vw;
+    top: 10vh;
+    right: 8vw;
     line-height: 1.5rem;
     font-weight: 600;
 }
 
 .right__text--one::before {
     content: '"';
-    margin-right: 5px;
-    font-size: 1.5rem;
+    position: absolute;
+    transform: translate(-200%);
 }
 
 .right__text--two::after {
     content: '"';
-    margin-left: 5px;
-    font-size: 1.5rem;
+    position: absolute;
+    transform: translate(100%);
 }
 
 .right__text-2 {
     transform: rotate(-90deg);
     position: absolute;
     top:65%;
-    right: -5vw;
+    right: -2vw;
     display: flex;
     align-items: center;
+    font-size: 0.7rem;
 }
 
 .right__text-2-short-line,
