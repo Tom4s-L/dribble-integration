@@ -142,11 +142,38 @@ body {
 
 .left__buttons {
     grid-area: button;
+    display: flex;
+}
 
+.left__buttons-button {
+    width: 25%;
+    text-decoration: none;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    border-radius: 10px;
+}
+
+.left__buttons-contact {
+    background-color: #8873ef;
+    color: white;
+}
+
+.left__buttons-portfolio {
+    color: black;
+    font-weight: 600;
+}
+
+.left__buttons-button > img {
+    max-height: 15px;
+    margin-left: 1rem;
 }
 
 .left__links {
     grid-area: links;
+    margin-bottom: auto;
 }
 
 .left__links-text {
@@ -159,7 +186,7 @@ body {
     height: 2rem;
     border-radius: 50%;
     padding: 1%;
-    background-color: rgba(207, 207, 207, 0.596);
+    background-color: #f6f6f6;
     margin-left: 1rem;
     display: flex;
     justify-content: center;
