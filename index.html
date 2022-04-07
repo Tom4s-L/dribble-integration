@@ -1,95 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viens jouer</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="wrapper">
-        <nav class="navbar">
-            <div class="navbar__logo">
-                <div class="navbar__logo-border">
-                    <div class="navbar__logo-circle"></div>
-                    <div class="navbar__logo-line"></div>
-                </div>
-                <p class="navbar__logo-text">
-                    Port.<br>
-                    Tanim
-                </p> 
-            </div>
-            <ul class="navbar__links">
-                <li class="navbar__links-link navbar__links-link--about "><a href="">About</a> </li>
-                <li class="navbar__links-link navbar__links-link--service "><a href="">Service</a></li>
-                <li class="navbar__links-link navbar__links-link--portfolio "><a href="">Portfolio</a></li>
-                <li class="navbar__links-link navbar__links-link--testimonial "><a href="">Testimonial</a></li>
-            </ul>
-            <form action="" class="navbar__form">
-                <input type="text" name="search" id="search" placeholder="Search" class="navbar__form-input"/>
-                <img src="./images/loupe.png" alt="Icon de loupe" class="navbar__form-icon">
-            </form>
-        </nav>
-        <div class="content">
-            <section class="left">
-                <h1 class="left__title">
-                    <span>Hello!</span><br>
-                    We have<br>
-                    Design<br>
-                    Experience
-                </h1>
-
-                <div class="left__text">
-                    <div class="left__text-line">                        
-                    </div>
-                    <p class="left__text-text">
-                        Hi ! I'm a UI/UX Designer <span class="left__text-hyphen"></span> creating bold & brave<br>
-                        interface design for companies all accross the world.
-                    </p>
-                </div>
-
-                <div class="left__buttons">
-                    <a href="" class="left__buttons-button left__buttons-contact">
-                        Let's Talk
-                        <img src="images/send-white.png" alt="Icon d'envoi" class="left__buttons-contact-img">
-                    </a>
-                    <a href="" class="left__buttons-button left__buttons-portfolio">
-                        Portfolio
-                        <img src="images/arrow-black.png" alt="Icon de flèche" class="left__buttons-contact-arrow">
-                    </a>
-                </div>
-            
-                <div class="left__links">
-                    <p class="left__links-text">
-                        Check Out My
-                    </p> 
-                    <div class="left__links-link left__link-instagram">
-                        <img src="images/instagram.png" alt="">
-                    </div>
-                    <div class="left__links-link left__link-dribble">
-                        <img src="images/dribble.png" alt="">
-                    </div>
-                    <div class="left__links-link left__link-behence">
-                        <img src="images/behance.png" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="right">
-                <img src="images/avatar.png" alt="Avatar de Thomas Lurmeau" class="right__avatar">
-                <div class="right__text">
-                    <p class="right__text--one">People ignore design</p>
-                    <p class="right__text--two">that ignores people</p>
-                </div>
-                <div class="right__text-2">
-                    <p>Scroll Down</p>
-                    <div class="right__text-2-short-line"></div>
-                    <div class="right__text-2-long-line"></div>
-                </div> 
-            </section>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dribble Intégration</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="loader">
+            <span class="loader__child">L</span>
+            <span class="loader__child">o</span>
+            <span class="loader__child">a</span>
+            <span class="loader__child">d</span>
+            <span class="loader__child">i</span>
+            <span class="loader__child">n</span>
+            <span class="loader__child">g</span>
+            <span class="loader__child">.</span>
+            <span class="loader__child">.</span>
+            <span class="loader__child">.</span>
         </div>
-    </div>     
-</body>
-</html>
+        <div class="placeholder">
+            <h2 class="placeholder__title">Ho nooooo !!! 😵‍💫😵🤯</h2>
+            <p class="placeholder__explanation">
+                There is no support for mobile format yet or any screen resolution under 1300 pixel width... 
+            </p>
+            <p class="placeholder__suggestion">
+                But you can suggest one 
+                <a href="https://github.com/Tom4s-L/dribble-integration" class="placeholder__suggestion-link">here</a>.
+            </p>
+        </div>
+        <div class="wrapper">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <div class="navbar__logo-border">
+                        <div class="navbar__logo-circle"></div>
+                        <div class="navbar__logo-line"></div>
+                    </div>
+                    <p class="navbar__logo-text">
+                        Port.<br>
+                        Tanim
+                    </p> 
+                </div>
+                <ul class="navbar__links">
+                    <li class="navbar__links-link navbar__links-link--about "><a href="">About</a> </li>
+                    <li class="navbar__links-link navbar__links-link--service "><a href="">Service</a></li>
+                    <li class="navbar__links-link navbar__links-link--portfolio "><a href="">Portfolio</a></li>
+                    <li class="navbar__links-link navbar__links-link--testimonial "><a href="">Testimonial</a></li>
+                </ul>
+                <form action="" class="navbar__form">
+                    <input type="text" name="search" id="search" placeholder="Search" class="navbar__form-input"/>
+                    <img src="./images/loupe.png" alt="Icon de loupe" class="navbar__form-icon">
+                </form>
+            </nav>
+            <div class="content">
+                <section class="left">
+                    <h1 class="left__title">
+                        <span>Hello!</span><br>
+                        We have<br>
+                        Design<br>
+                        Experience
+                    </h1>
+                    
+                    <div class="left__text">
+                        <div class="left__text-line">                        
+                        </div>
+                        <p class="left__text-text">
+                            Hi ! I'm a UI/UX Designer <span class="left__text-hyphen"></span> creating bold & brave<br>
+                            interface design for companies all accross the world.
+                        </p>
+                    </div>
+                    
+                    <div class="left__buttons">
+                        <a href="" class="left__buttons-button left__buttons-contact">
+                            Let's Talk
+                            <img src="images/send-white.png" alt="Icon d'envoi" class="left__buttons-contact-img">
+                        </a>
+                        <a href="" class="left__buttons-button left__buttons-portfolio">
+                            Portfolio
+                            <img src="images/arrow-black.png" alt="Icon de flèche" class="left__buttons-contact-arrow">
+                        </a>
+                    </div>
+                    
+                    <div class="left__links">
+                        <p class="left__links-text">
+                            Check Out My
+                        </p> 
+                        <a href="https://www.instagram.com/" class="left__links-link left__link-instagram">
+                            <img src="images/instagram.png" alt="Logo d'Instagram">
+                        </a>
+                        <a href="https://dribbble.com/shots/17035515-Personal-Portfolio-Web-Landing-Page-Design" class="left__links-link left__link-dribble">
+                            <img src="images/dribble.png" alt="Logo de Dribble">
+                        </a>
+                        <a href="https://www.behance.net/" class="left__links-link left__link-behance">
+                            <img src="images/behance.png" alt="Logo de Behance">
+                        </a>
+                    </div>
+                </section>
+                <section class="right">
+                    <img src="images/avatar.png" alt="Avatar de Thomas Lurmeau" class="right__avatar">
+                    <div class="right__text">
+                        <p class="right__text--one">People ignore design</p>
+                        <p class="right__text--two">that ignores people</p>
+                    </div>
+                    <div class="right__text-2">
+                        <p>Scroll Down</p>
+                        <div class="right__text-2-short-line"></div>
+                        <div class="right__text-2-long-line"></div>
+                    </div> 
+                </section>
+            </div>            
+        </div>   
+        <script src="js/app.js"></script>  
+    </body>
+    </html>

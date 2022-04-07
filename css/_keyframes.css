@@ -1,0 +1,25 @@
+@keyframes waveIt {    
+    from {
+        transform: translateY(0) rotate(10deg) scale(1);
+        color: rgb(199, 199, 199); 
+    }
+
+    25% {
+        transform: translateY(-10px) rotate(-7deg) scale(1.1);
+        color: rgb(46, 205, 233);
+    }
+    
+    50% {
+        transform: translateY(-15px) rotate(-10deg) scale(1.3);
+        color: rgb(244, 244, 72);
+    }
+
+    75% {
+        transform: translateY(-10px) rotate(-2deg) scale(1.1);
+        color: rgb(48, 228, 126);
+    }
+    
+    to {
+        transform: translateY(0px) rotate(0deg) scale(1);      
+    }
+}
