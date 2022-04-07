@@ -1,0 +1,57 @@
+.loader {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: #202020;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 3s;
+    color: white;
+    font-size: 3rem;
+}
+
+.loader__child {
+    animation: waveIt 1.5s infinite linear;
+}
+
+.loader__child:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.loader__child:nth-child(2) {
+    animation-delay: 0.12s;
+}
+
+.loader__child:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.loader__child:nth-child(4) {
+    animation-delay: 0.40s;
+}
+
+.loader__child:nth-child(5) {
+    animation-delay: 0.1s;
+}
+
+.loader__child:nth-child(6) {
+    animation-delay: 0.06s;
+}
+
+.loader__child:nth-child(7) {
+    animation-delay: 0.5s;
+}
+
+.loader__child:nth-child(8) {
+    animation-delay: 0.8s;
+}
+
+.loader__child:nth-child(9) {
+    animation-delay: 1.79s;
+}
+
+.loader__child:nth-child(10) {
+    animation-delay: 1s;
+}
